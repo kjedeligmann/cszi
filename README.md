@@ -1,6 +1,6 @@
 # Cryptography course projects
 
-Here are some of the projects that I did as part of the cryptography course[^1]. Perhaps, someone may find those useful.
+Here are some of the projects that I did as part of the cryptography course[^1] in university. Perhaps, someone may find those useful.
 
 [^1]: _Криптографічні системи захисту інформації_, i.e. _Cryptographic information security systems_
 
@@ -28,7 +28,7 @@ It is another historic cipher that is essentially running several Caesar ciphers
 
 Next task was to implement a simplistic algorithm somewhat resembling DES. It was described as such:
 
-![Encryption and key generation process](img/s-des.jpg)
+![Encryption and key generation process](img/sdes.jpg)
 
 To see it in action, you can run
 
