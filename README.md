@@ -28,9 +28,7 @@ It is another historic cipher that is essentially running several Caesar ciphers
 
 Next task was to implement a simplistic algorithm somewhat resembling DES. It was described as such:
 
-![Encryption process](img/s-des.png)
-
-![Key generation process](img/s-des keygen.png)
+![Encryption and key generation process](img/s-des.jpg)
 
 To see it in action, you can run
 
@@ -48,7 +46,7 @@ An implementation of a simplistic stream cipher based on LFSR.
 
 Here is a picture of a 16-bit LFSR with a polynomial $x^{16} + x^{14} + x^{13} + x^{11} + 1$, similar to the one in the `lfsr/lfsr.go`:
 
-![16-bit LFSR](https://upload.wikimedia.org/wikipedia/commons/2/28/LFSR-F16.svg)
+![16-bit LFSR](img/lfsr.jpg)
 
 ```go
 	var start, polynomial uint64 = 0xACE1, 0b1000000000101101
